@@ -55,6 +55,7 @@ class InflectionMixin extends Mixin
       '/(h|bl)ouses$/i'           => "$1ouse",
       '/(corpse)s$/i'             => "$1",
       '/(us)es$/i'                => "$1",
+      '/ss$/i'                     => "ss",
       '/s$/i'                     => ""
   );
 
